@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/StarkovPO/go-musthave-diploma-tpl.git/internal/config"
-	"github.com/StarkovPO/go-musthave-diploma-tpl.git/internal/store"
+	"github.com/StarkovPO/Gopher-shop.git/internal/config"
+	"github.com/StarkovPO/Gopher-shop.git/internal/store"
 )
 
 type Service struct {

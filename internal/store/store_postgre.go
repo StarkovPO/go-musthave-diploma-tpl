@@ -2,7 +2,7 @@ package store
 
 import (
 	"fmt"
-	"github.com/StarkovPO/go-musthave-diploma-tpl.git/internal/config"
+	"github.com/StarkovPO/Gopher-shop.git/internal/config"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq"
 	"time"

@@ -2,18 +2,17 @@ package main
 
 import (
 	"context"
-	"github.com/StarkovPO/go-musthave-diploma-tpl.git/internal/app"
-	"github.com/StarkovPO/go-musthave-diploma-tpl.git/internal/config"
-	"github.com/StarkovPO/go-musthave-diploma-tpl.git/internal/service"
-	"github.com/StarkovPO/go-musthave-diploma-tpl.git/internal/store"
+	"github.com/StarkovPO/Gopher-shop.git/internal/app"
+	"github.com/StarkovPO/Gopher-shop.git/internal/config"
+	"github.com/StarkovPO/Gopher-shop.git/internal/service"
+	"github.com/StarkovPO/Gopher-shop.git/internal/store"
 	"log"
 	"time"
 )
 
 func main() {
-
 	c, err := config.Init()
-
+	//init
 	if err != nil {
 		log.Fatalf("init configuration: %s", err)
 	}
